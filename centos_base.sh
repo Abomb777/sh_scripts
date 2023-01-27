@@ -1,0 +1,1 @@
+yum install -y vim curl wget nmap net-tools
