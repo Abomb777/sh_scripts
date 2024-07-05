@@ -5,3 +5,5 @@ USAGE=$(cat <(grep 'cpu ' /proc/stat) <(sleep 1 && grep 'cpu ' /proc/stat) | awk
 echo " $USAGE"
 CORES=$(nproc --all)
 echo " $CORES"
+CORESINUSE=$CORES/100
+echo " $CORESINUSE"
