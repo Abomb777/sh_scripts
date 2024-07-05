@@ -6,4 +6,5 @@ echo " $USAGE"
 CORES=$(nproc --all)
 echo " $CORES"
 let CORESINUSE=$(echo "$CORES / 100" | bc -l)
+
 echo " $CORESINUSE"
